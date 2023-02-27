@@ -13,15 +13,15 @@
               <div class="col-sm-4 col-md-3 item">
                   <h3> --------------- </h3>
                   <ul>
-                      <li><a href="#">Stack Overflow</a></li>
-                      <li><a href="#">Coolors</a></li>
-                      <li><a href="#">Pinterest</a></li>
+                      <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+                      <li><a href="https://coolors.co/">Coolors</a></li>
+                      <li><a href="https://www.pinterest.com/">Pinterest</a></li>
                   </ul>
               </div>
               <div class="col-sm-4 col-md-3 item">
                   <h3>  ---------------  </h3>
                   <ul>
-                      <li><a href="#">LinkedIn</a></li>
+                      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
                   </ul>
               </div>
               <div class="col-lg-3 item social"><a href="https://www.facebook.com/dakto.box"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a>
