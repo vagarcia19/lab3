@@ -13,15 +13,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
     
     <title>Vieron's Personal Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" 
+    href= <?php echo base_url('css/style.css'); ?>>
 </head>
 <body>
 
-    <header>
-      <a href="#" class="logo">vieron</a>
+<header>
+    <a href="home" class="logo">vieron</a>
       <ul>
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="vagarcia_guests.php">My Guests</a></1i>
-        <li><a href="reg2.php">Register</a></1i>
+        <li><a href="home" class="active">Home</a></li>
+        <li><a href="vagarcia_guests">My Guests</a></1i>
+        <li><a href="reg">Register</a></1i>
       </ul>
-    </header>
+</header>
