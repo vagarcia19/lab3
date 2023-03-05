@@ -1,12 +1,12 @@
-<div>
-    <h2 style="color:#fff">Guest List</h2>
+
+    <h2 id = "guest">Guest List</h2>
 
     <?= session()->getFlashdata('error') ?>
     <?= validation_list_errors() ?>
 
     <form action="create" method="post">
         <?= csrf_field() ?>
-
+    <div id= "form">
         <label for="name" style="color:#fff">Name</label>
         <input type="input" name="name" value="<?= set_value('name') ?>">
         <br>
@@ -26,10 +26,10 @@
         <label for="Gender" style="color:#fff">Gender</label>
         <input type="input" name="gender" value="<?= set_value('gender') ?>">
         <br>
-
+    </div>
         
 
         <input type="submit" name="submit" value="Create Guest">
     </form>
 
-</div>
+
