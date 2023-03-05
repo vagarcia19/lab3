@@ -24,7 +24,7 @@
         <li><a href="home" class="active">Home</a></li>
         <li><a href="vagarcia_guests">My Guests</a></1i>
         <li><a href="reg">Register</a></1i>
-        <li><a href="news/index">News</a></1i>
+        <li><a href="news">News</a></1i>
         <li><a href="create">Create News</a></1i>
       </ul>
 </header>
