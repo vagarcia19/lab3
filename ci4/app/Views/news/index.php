@@ -21,6 +21,7 @@
         <p id="fcolor">Unable to find any news for you.</p>
 
     <?php endif ?>
-
+    
+    <li><a href="create">Create News</a></1i>
 
     
