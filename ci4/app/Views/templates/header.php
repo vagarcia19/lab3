@@ -23,7 +23,7 @@
       <ul>
         <li><a href="home" class="active">Home</a></li>
         <li><a href="guest">My Guests</a></1i>
-        <li><a href="public/guest/create">Register</a></1i>
+        <li><a href="lab3/ci4/public/guest/create">Register</a></1i>
         <li><a href="news">News</a></1i>
         <li><a href="public/news/create">Add News</a></1i>
       </ul>
