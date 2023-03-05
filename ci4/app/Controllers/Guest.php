@@ -31,12 +31,15 @@ class Guest extends BaseController
                 . view('templates/footer');
         }
 
-        $post = $this->request->getPost(['name', 'email', 'website', 'comment', 'gender']);
+        $post = $this->request->getPost(['name', 'email', 'website', 'gender','comment']);
 
         // Checks whether the submitted data passed the validation rules.
         if (! $this->validateData($post, [
-            'title' => 'required|max_length[255]|min_length[3]',
-            'body'  => 'required|max_length[5000]|min_length[10]',
+            'name' => 'required|max_length[255]|min_length[3]',
+            'email' => 'required|max_length[255]|min_length[3]',
+            'website' => 'required|max_length[255]|min_length[3]',			
+            'gender' => 'required|max_length[255]|min_length[3]',
+            'comment' => 'required|max_length[255]|min_length[3]'
         ])) {
             // The validation fails, so returns the form.
             return view('templates/header', ['title' => 'Create a news item'])
