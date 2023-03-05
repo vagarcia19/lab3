@@ -38,7 +38,7 @@ class Guest extends BaseController
             'name' => 'required|max_length[255]|min_length[3]',
             'email' => 'required|max_length[255]|min_length[3]',
             'website' => 'required|max_length[255]|min_length[3]',			
-            'gender' => 'max_length[255]|min_length[3]',
+            'gender' => 'required|max_length[255]|min_length[3]',
             'comment' => 'required|max_length[255]|min_length[3]'
         ])) {
             // The validation fails, so returns the form.
