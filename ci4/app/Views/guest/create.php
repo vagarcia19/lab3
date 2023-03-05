@@ -1,5 +1,5 @@
 
-<div style="padding: 20px; text-align:center">
+<div style="padding: 20px; text-align:center;color:#fff">
 
     <h2 style="color:#fff; font-style:italic;margin-bottom:20px">Create Guest</h2>
 
@@ -8,20 +8,20 @@
     <form action="create" method="post">
         <?= csrf_field() ?>
 
-        <label for="name" style="color:#fff">Name</label>
+        <label for="name">Name</label>
         <input type="input" name="name" value="<?= set_value('name') ?>">
         <br>
 
-        <label for="email" style="color:#fff">Email</label>
+        <label for="email">Email</label>
         <input type="input" name="email" value="<?= set_value('email') ?>">
         <br>
 
-        <label for="website" style="color:#fff">Website</label>
+        <label for="website">Website</label>
         <input type="input" name="website" value="<?= set_value('website') ?>">
         <br>
 
 
-        <label for="Gender" style="color:#fff">Gender</label>
+        <label for="Gender">Gender</label>
         <input type="radio" name="gender" value="<?= set_value('Female') ?>">  Female  
         <input type="radio" name="gender" value="<?= set_value('Male') ?>">  Male  
         <input type="radio" name="gender" value="<?= set_value('Other') ?>">  Other  
