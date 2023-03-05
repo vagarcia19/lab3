@@ -10,7 +10,6 @@
             <p><?= esc($guest_item['email']) ?>
             <p><?= esc($guest_item['comment']) ?>
         </div>
-        <p><a href="/guest/<?= esc($guest_item['slug'], 'url') ?>">View article</a></p>
 
     <?php endforeach ?>
 
