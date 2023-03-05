@@ -5,7 +5,7 @@
 
         <?php foreach ($news as $news_item): ?>
         <div style="color:#fff; padding: 20px; text-align:center">
-            <h3 style="color:#fff"><?= esc($news_item['title']) ?></h3>
+            <h3 style="color:#fff;font-size:20px"><?= esc($news_item['title']) ?></h3>
 
             <div class="main" >
                 <p><?= esc($news_item['body']) ?>
