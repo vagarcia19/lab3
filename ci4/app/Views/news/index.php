@@ -1,5 +1,5 @@
 
-    <h2 style="color:#fff; padding: 20px; text-align:center"><?= esc($title) ?></h2>
+    <h2 style="color:#fff; padding: 20px; text-align:center; font-style: italic"><?= esc($title) ?></h2>
 
     <?php if (! empty($news) && is_array($news)): ?>
 
@@ -8,9 +8,10 @@
             <h3 style="color:#fff"><?= esc($news_item['title']) ?></h3>
 
             <div class="main" >
-                <?= esc($news_item['body']) ?>
+                <p><?= esc($news_item['body']) ?>
             </div>
             <p><a href="news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
+            <p>----------------------</p>
         </div>
         <?php endforeach ?>
 
