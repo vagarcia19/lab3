@@ -50,7 +50,7 @@ class Guest extends BaseController
         $model = model(NewsModel::class);
 
         $model->save([
-            'name' => $post['firstname'],
+            'name' => $post['name'],
             'email'  => $post['email'],
             'website'  => $post['website'],
             'gender'  => $post['gender'],
