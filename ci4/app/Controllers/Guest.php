@@ -26,7 +26,7 @@ class Guest extends BaseController
         // Checks whether the form is submitted.
         if (! $this->request->is('post')) {
             // The form is not submitted, so returns the form.
-            return view('templates/header', ['title' => 'Create a news item'])
+            return view('templates/header', ['title' => 'Create Guest'])
                 . view('guest/create')
                 . view('templates/footer');
         }
@@ -39,10 +39,10 @@ class Guest extends BaseController
             'email' => 'required|max_length[255]|min_length[3]',
             'website' => 'required|max_length[255]|min_length[3]',			
             'gender' => 'required|max_length[255]|min_length[3]',
-            'comment' => 'required|max_length[255]|min_length[3]'
+            'comment' => 'required|max_length[255]|min_length[3]',
         ])) {
             // The validation fails, so returns the form.
-            return view('templates/header', ['title' => 'Create a news item'])
+            return view('templates/header', ['title' => 'Create Guest'])
                 . view('guest/create')
                 . view('templates/footer');
         }
@@ -54,10 +54,10 @@ class Guest extends BaseController
             'email'  => $post['email'],
             'website'  => $post['website'],
             'gender'  => $post['gender'],
-            'comment'  => $post['comment']
+            'comment'  => $post['comment'],
         ]);
 
-        return view('templates/header', ['title' => 'Create a news item'])
+        return view('templates/header', ['title' => 'Create Guest'])
             . view('guest/success')
             . view('templates/footer');
     }
