@@ -240,13 +240,7 @@ section img#bundok
   top: 50%;
   left: 50%;
 }
-div.forms{
-  position: absolute;
-  font-size: 20px;
-  z-index: 9;
-  top: 10%;
-  left: 35%;
-}
+
 
 #about2{
   position: absolute;

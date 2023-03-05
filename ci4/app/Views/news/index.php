@@ -1,24 +1,24 @@
 
-    <h2 id="fcolor"><?= esc($title) ?></h2>
+    <h2 style="color:#fff"><?= esc($title) ?></h2>
 
     <?php if (! empty($news) && is_array($news)): ?>
 
         <?php foreach ($news as $news_item): ?>
 
-            <h3 id="fcolor"><?= esc($news_item['title']) ?></h3>
+            <h3 style="color:#fff"><?= esc($news_item['title']) ?></h3>
 
-            <div class="main">
+            <div class="main" >
                 <?= esc($news_item['body']) ?>
             </div>
-            <p id="fcolor"><a href="news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
+            <p><a href="news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
 
         <?php endforeach ?>
 
     <?php else: ?>
 
-        <h3 id="fcolor">No News</h3>
+        <h3 style="color:#fff">No News</h3>
 
-        <p id="fcolor">Unable to find any news for you.</p>
+        <p style="color:#fff"i>Unable to find any news for you.</p>
 
     <?php endif ?>
     
