@@ -254,3 +254,7 @@ section img#bundok
 div.list{
   position: center;
 }
+
+#guest{
+  color: #fff;
+}

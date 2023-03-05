@@ -1,4 +1,4 @@
-<div style = "position: center">
+
 <h2 style="color:#fff"><?= esc($title) ?></h2><br>
 
 <?php if (! empty($guest) && is_array($guest)): ?>
@@ -23,4 +23,4 @@
     <p>Unable to find any guest for you.</p>
 
 <?php endif ?>
-</div>
+
