@@ -10,7 +10,7 @@ class GuessModel extends Model
 
     protected $allowFields = ['name', 'email', 'website', 'comment', 'gender'];
 
-    public function getGuest(){
+    public function getGuest($slug = false){
         if ($slug === false) {
             return $this->findAll();
         }
