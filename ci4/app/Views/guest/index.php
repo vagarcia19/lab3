@@ -6,7 +6,7 @@
     <?php foreach ($guest as $guest_item): ?>
 
 
-        <div class="main" style="color:#fff">
+        <div class="main" style="color:#fff padding: 20px; text-align:center">
             <p>Name: <?= esc($guest_item['name']) ?>
             <p>Email: <?= esc($guest_item['email']) ?>
             <p>Comment: <?= esc($guest_item['comment']) ?>

@@ -1,1 +1,1 @@
-<p>Guest entry created successfully.</p>
+<p style="padding: 20px; text-align:center">Guest entry created successfully.</p>
