@@ -22,8 +22,8 @@
     <a href="home" class="logo">vieron</a>
       <ul>
         <li><a href="home" class="active">Home</a></li>
-        <li><a href="guest/index">My Guests</a></1i>
-        <li><a href="guest">Register</a></1i>
+        <li><a href="guest">My Guests</a></1i>
+        <li><a href="guest/create">Register</a></1i>
         <li><a href="news">News</a></1i>
         <li><a href="news/create">Add News</a></1i>
       </ul>
