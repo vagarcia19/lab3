@@ -240,8 +240,6 @@ section img#bundok
   top: 50%;
   left: 50%;
 }
-
-
 #about2{
   position: absolute;
   color: #fff;
@@ -253,6 +251,6 @@ section img#bundok
   left: 10%;
 }
 
-#fcolor{
-  color:#fff;
+.list{
+  text-align: center;
 }
