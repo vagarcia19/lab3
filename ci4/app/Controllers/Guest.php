@@ -50,9 +50,11 @@ class Guest extends BaseController
         $model = model(NewsModel::class);
 
         $model->save([
-            'title' => $post['title'],
-            'slug'  => url_title($post['title'], '-', true),
-            'body'  => $post['body'],
+            'name' => $post['firstname'],
+            'email'  => $post['email'],
+            'website'  => $post['website'],
+            'gender'  => $post['gender'],
+            'comment'  => $post['comment']
         ]);
 
         return view('templates/header', ['title' => 'Create a news item'])
