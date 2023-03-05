@@ -7,9 +7,11 @@
 
 
         <div class="main" style="color:#fff">
-            <p><?= esc($guest_item['name']) ?>
-            <p><?= esc($guest_item['email']) ?>
-            <p><?= esc($guest_item['comment']) ?>
+            <p>Name: <?= esc($guest_item['name']) ?>
+            <p>Email:<?= esc($guest_item['email']) ?>
+            <p>Comment:<?= esc($guest_item['comment']) ?>
+            <p>Website:<?= esc($guest_item['comment']) ?>
+            <p>----------------------</p> <br>
         </div>
 
     <?php endforeach ?>
