@@ -1,7 +1,7 @@
 <div style="padding: 20px; text-align:center;color:#fff;">
 
 
-    <h2  style="font-style:italic;margin-bottom:20px"><?= esc($title) ?></h2>
+    <h2  style="font-style:italic;margin-bottom:40px"><?= esc($title) ?></h2>
 
     <?= session()->getFlashdata('error') ?>
     <?= validation_list_errors() ?>

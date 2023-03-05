@@ -22,9 +22,9 @@
 
 
         <label for="Gender" style="color:#fff">Gender</label>
-        <input type="radio" name="gender" value="<?= set_value('female') ?>">  Female  
-        <input type="radio" name="gender" value="<?= set_value('male') ?>">  Male  
-        <input type="radio" name="gender" value="<?= set_value('other') ?>">  Other  
+        <input type="radio" name="gender" value="<?= set_value('Female') ?>">  Female  
+        <input type="radio" name="gender" value="<?= set_value('Male') ?>">  Male  
+        <input type="radio" name="gender" value="<?= set_value('Other') ?>">  Other  
         <br>
 
         
