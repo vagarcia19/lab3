@@ -27,7 +27,7 @@ class Guest extends BaseController
         if (! $this->request->is('post')) {
             // The form is not submitted, so returns the form.
             return view('templates/header', ['title' => 'Create a news item'])
-                . view('news/create')
+                . view('guest/create')
                 . view('templates/footer');
         }
 
@@ -40,7 +40,7 @@ class Guest extends BaseController
         ])) {
             // The validation fails, so returns the form.
             return view('templates/header', ['title' => 'Create a news item'])
-                . view('news/create')
+                . view('guest/create')
                 . view('templates/footer');
         }
 
@@ -53,7 +53,7 @@ class Guest extends BaseController
         ]);
 
         return view('templates/header', ['title' => 'Create a news item'])
-            . view('news/success')
+            . view('guest/success')
             . view('templates/footer');
     }
 
