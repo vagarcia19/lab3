@@ -25,6 +25,6 @@
         <li><a href="vagarcia_guests">My Guests</a></1i>
         <li><a href="reg">Register</a></1i>
         <li><a href="news">News</a></1i>
-        <li><a href="create">Create News</a></1i>
+        <li><a href="news/create">Create News</a></1i>
       </ul>
 </header>
