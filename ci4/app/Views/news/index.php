@@ -22,6 +22,5 @@
 
     <?php endif ?>
     
-    <li><a href="create">Create News</a></1i>
 
     
