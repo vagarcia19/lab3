@@ -1,18 +1,22 @@
-<h2><?= esc($title) ?></h2>
+<div style="padding: 20px; text-align:center;color:#fff;">
 
-<?= session()->getFlashdata('error') ?>
-<?= validation_list_errors() ?>
 
-<form action="create" method="post">
-    <?= csrf_field() ?>
+    <h2  style="font-style:italic;margin-bottom:20px"><?= esc($title) ?></h2>
 
-    <label for="title">Title</label>
-    <input type="input" name="title" value="<?= set_value('title') ?>">
-    <br>
+    <?= session()->getFlashdata('error') ?>
+    <?= validation_list_errors() ?>
 
-    <label for="body" id = "fcolor">Text</label>
-    <textarea name="body" cols="45" rows="4"><?= set_value('body') ?></textarea>
-    <br>
+    <form action="create" method="post">
+        <?= csrf_field() ?>
 
-    <input type="submit" name="submit" value="Create news item">
-</form>
+        <label for="title">Title</label>
+        <input type="input" name="title" value="<?= set_value('title') ?>">
+        <br>
+
+        <label for="body" id = "fcolor">Text</label>
+        <textarea name="body" cols="45" rows="4"><?= set_value('body') ?></textarea>
+        <br>
+
+        <input type="submit" name="submit" value="Create news item">
+    </form>
+</div>
