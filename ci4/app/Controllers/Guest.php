@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\GuestModel;
+use CodeIgniter\Exceptions\PageNotFoundException;
 
 class Guest extends BaseController
 {
