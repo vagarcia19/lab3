@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class GuessModel extends Model
+class GuestModel extends Model
 {
     protected $table = 'vagarcia_myguests';
 
