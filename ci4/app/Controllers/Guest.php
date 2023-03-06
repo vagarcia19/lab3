@@ -47,7 +47,7 @@ class Guest extends BaseController
                 . view('templates/footer');
         }
 
-        $model = model(NewsModel::class);
+        $model = model(GuestModel::class);
 
         $model->save([
             'name' => $post['name'],
