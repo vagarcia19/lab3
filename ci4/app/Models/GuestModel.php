@@ -4,20 +4,14 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class GuestModel extends Model
+class GuestModel extends Model 
 {
     protected $table = 'vagarcia_myguests';
 
-    protected $allowFields = ['name', 'email', 'website', 'comment', 'gender'];
-
-    public function getGuest($slug = false)
-    {
-        if ($slug === false) {
-            return $this->findAll();
-        }
-
-        return $this->where(['slug' => $slug])->first();
-    }
-
+    protected $allowedFields = ['name','email', 'website', 'comment', 'gender'];
     
+    public function getGuest() 
+    {
+        return $this->findAll();
+    }
 }
